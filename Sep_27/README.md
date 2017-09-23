@@ -3,10 +3,10 @@
 Reading: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 
 Pseudocode:
-The following is the way how I write a binary search. It is easy to memorize, and I don't have to think about (mid+1) kind of assignments. And the base case is simple to check
+The following is the way how I write a binary search. It is easy to memorize, and I don't have to think about (mid+1) kind of assignments. And the base case is simple to check.
 
-'''java
 binary_search(low, high, p):
+    // A more general approach of binary search:
     // Given a function p(x) which tells that if condition at index x is true and a range (low, high)
     // We are trying to find the smallest index i such that p(i) is true. (p(i-1) is false)
     // p(i) could be as simple as whether a number at index i is equal to X, or a complicated one.
@@ -25,4 +25,3 @@ binary_search(low, high, p):
     // At the end of the loop, low + 1 = high. 
     // It is useful to think of the pointers low and high as follows:
     // p(x) is false for x <= low, and p(x) is true for x >= high.
-'''
