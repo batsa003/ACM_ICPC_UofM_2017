@@ -47,9 +47,11 @@ https://www.topcoder.com/community/data-science/data-science-tutorials/understan
 ### Number Theory.
 
 1. Read about greatest common divisor. The following is a pseudocode for computing gcd of two numbers using Eucledian algorithm.
+```
 int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
 }
+```
 
 2. Read about Sieve of Eratosthenes. Useful algorithm to know.
 http://www.geeksforgeeks.org/sieve-of-eratosthenes/
@@ -61,17 +63,17 @@ http://www.geeksforgeeks.org/sieve-of-eratosthenes/
 Refer to http://web.stanford.edu/class/cs97si/02-mathematics.pdf
 
 Recursive version:
-'''
+```
 double pow(double a, int n) {
     if(n == 0) return 1;
     if(n == 1) return a;
     double t = pow(a, n/2);
     return t * t * pow(a, n%2);
 }
-'''
+```
 
 Iterative version:
-'''
+```
 double pow(double a, int n) {
     double ret = 1;
     while(n) {
@@ -80,7 +82,7 @@ double pow(double a, int n) {
     }
     return ret;
 }
-'''
+```
 Intuition: Say, n = 11 = 2^3 + 2^1 + 2^0. Then, a^n = a^(2^3) * a^(2^1) * a^(2^0).
 The line n%2 == 1 is checking the last bit of the binary representation of n. n /= 2 basically cuts of the last bit.
 
