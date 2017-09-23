@@ -5,7 +5,7 @@ Reading: https://www.topcoder.com/community/data-science/data-science-tutorials/
 Pseudocode:
 The following is the way how I write a binary search. It is easy to memorize, and the base case is simple to check.
 
-'''
+```
 binary_search(low, high, p):
     // A more general approach of binary search:
     // Given a function p(x) which tells that if condition at index x is true and a range (low, high)
@@ -25,4 +25,4 @@ binary_search(low, high, p):
     // At the end of the loop, low + 1 = high. 
     // It is useful to think of the pointers low and high as follows:
     // p(x) is false for x <= low, and p(x) is true for x >= high.
-'''
+```
