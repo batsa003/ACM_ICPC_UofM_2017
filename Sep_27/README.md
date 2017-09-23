@@ -1,6 +1,6 @@
 ### Binary Search
 
-Reading: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
+https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 
 Pseudocode:
 The following is the way how I write a binary search. It is easy to memorize, and the base case is simple to check.
@@ -34,26 +34,26 @@ binary_search(low, high, p):
 
 ### Binomial Coefficients
 Understand binomial coefficients, what they are, and how to compute them. 
-Read: http://www.csl.mtu.edu/cs4321/www/Lectures/Lecture%2015%20-%20Dynamic%20Programming%20Binomial%20Coefficients.htm
+http://www.csl.mtu.edu/cs4321/www/Lectures/Lecture%2015%20-%20Dynamic%20Programming%20Binomial%20Coefficients.htm
 
 To evaluate n choose k, they use C[i, j] = C[i-1, j-1] + C[i-1, j] identity.
 Understand how does the Algorithm Binomial(n,k) works.
 
 ### Basic Probability and Expected Value.
 
-Read this until NestedRandomness problem:
+You can read this until NestedRandomness problem:
 https://www.topcoder.com/community/data-science/data-science-tutorials/understanding-probabilities/
 
 ### Number Theory.
 
-1. Read about greatest common divisor. The following is a pseudocode for computing gcd of two numbers using Eucledian algorithm.
+1. Know about greatest common divisor. The following is a pseudocode for computing gcd of two numbers using Eucledian algorithm.
 ```
 int gcd(int a, int b) {
         return b == 0 ? a : gcd(b, a % b);
 }
 ```
 
-2. Read about Sieve of Eratosthenes. Useful algorithm to know.
+2. Know about Sieve of Eratosthenes. Useful algorithm to know.
 http://www.geeksforgeeks.org/sieve-of-eratosthenes/
 
 3. (Optional) Having templates for Chinese Remainder Theorem, Extended Eucledian Algorithm, and Multiplicative inverse could be useful.
