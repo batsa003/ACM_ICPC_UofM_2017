@@ -1,6 +1,6 @@
 ### Binary Search
 
-Tasks:
+####Tasks:
     1. Do some quick google search to understand the basic idea.
     2. Reading: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 
