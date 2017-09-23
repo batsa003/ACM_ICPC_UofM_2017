@@ -3,7 +3,7 @@
 Reading: https://www.topcoder.com/community/data-science/data-science-tutorials/binary-search/
 
 Pseudocode:
-The following is the way how I write a binary search. It is easy to memorize, and I don't have to think about (mid+1) kind of assignments (off by 1 is kind of annoying).
+The following is the way how I write a binary search. It is easy to memorize, and I don't have to think about (mid+1) kind of assignments. And the base case is simple to check
 
 '''java
 binary_search(low, high, p):
