@@ -21,7 +21,8 @@ Good sources to start:
 * https://www.hackerearth.com/practice/algorithms/greedy/basics-of-greedy-algorithms/tutorial/
 
 Build up your intuition for the underlying principles: Greedy choice property and Optimal substructure.
-(Optional) Understanding Dijkstra's algorithm and Minimum Spanning Trees are useful. But we will learn them under Graph algorithms next week.
+
+Understanding Dijkstra's algorithm and Minimum Spanning Trees are useful. But we will learn them under Graph algorithms next week.
 
 Make sure you are familiar with the following data structures in your favorite programming language:
 * Priority Queue, Set, Stack, and Queue.
