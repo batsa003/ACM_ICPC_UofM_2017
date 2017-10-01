@@ -9,7 +9,7 @@ Good sources to start:
 * Youtube lectures from MIT (Fibonacci, Shortest Path, Knapsack, Longest Common Subsequence etc,.)
 * http://web.stanford.edu/class/cs97si/04-dynamic-programming.pdf
 
-You should understand the underlying principles (Why it works? What is Optimal Substructure? etc,.)
+You should understand the underlying principles (Why it works? What is Optimal Substructure? etc,.).
 You should become comfortable with bottom up, top down, and memoization approaches.
 
 ### Greedy Algorithm
